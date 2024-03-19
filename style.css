@@ -47,6 +47,7 @@ hr {
   font-family: "Young Serif", serif;
   margin-bottom: 1.5rem;
   color: #312E2C;
+  font-weight: 400;
 }
 
 .intro p {
@@ -180,7 +181,7 @@ td {
 @media (min-width: 800px) {
 
   .omelette {
-    border-radius: 1.5rem;
+    border-radius: 12px;
     margin-bottom: 2.5rem;
   }
 
