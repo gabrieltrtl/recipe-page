@@ -15,11 +15,83 @@ input, button, textarea, select {
   font: inherit;
 }
 
-ol, ul {
-	list-style: none;
-}
-
 img, picture, video, canvas, svg {
   display: block;
   width: 100%;
 }
+
+body {
+  height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  padding: 2.5rem 2rem;
+}
+
+hr {
+  border-top: 1px solid #E3DDD7;
+  margin: 32px 0;
+}
+
+.intro {
+  margin-bottom: 2rem;
+}
+
+.intro h1 {
+  font-family: "Young Serif", serif;
+  margin-bottom: 1.5rem;
+}
+
+.intro p {
+  line-height: 1.5;
+}
+
+.preparation-time {
+  background: #FFF7FB;
+  padding: 1.5rem;
+  color: #5F564D;
+  border-radius: 0.75rem;
+  margin-bottom: 2rem;
+  
+}
+
+.preparation-time h2 {
+  color: #7A284E;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.preparation-time span {
+  font-weight: 700;
+}
+
+.preparation-time ul {
+  padding-left: 1.5625rem;
+}
+
+.preparation-time li {
+  padding-left: 1.375rem;
+}
+
+/* .preparation-time li::before {
+  content: "";
+  display: inline-block;
+  height: 5px;
+  background: #854632;
+  width: 5px;
+  border-radius: 50%;
+} */
+
+.preparation-time li:nth-child(-n+2) {
+  margin-bottom: 0.5rem;
+}
+
+.container h2 {
+  color: #854632;
+  font-family: "Young Serif", serif;
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
