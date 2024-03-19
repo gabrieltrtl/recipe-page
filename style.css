@@ -25,12 +25,12 @@ ul, ol {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Outfit", sans-serif;
 }
 
 main {
-  padding: 2.5rem 2rem;
+  padding: 40px 32px;
   color: #5F564D;
 }
 
@@ -46,6 +46,7 @@ hr {
 .intro h1 {
   font-family: "Young Serif", serif;
   margin-bottom: 1.5rem;
+  color: #312E2C;
 }
 
 .intro p {
@@ -174,6 +175,37 @@ th {
 td {
   font-weight: 700;
   color: #854632;
+}
+
+@media (min-width: 800px) {
+
+  .omelette {
+    border-radius: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+
+  body {
+    background: #F3E5D7;
+
+  }
+
+  .hero-container {
+    background-color: #FFF;
+    max-width: 46rem;
+    padding: 2.5rem;
+    margin: 7.75rem auto;
+    border-radius: 1.5rem;
+  }
+
+  main {
+    background-color: #FFF;
+    padding: 0;
+  }
+
+  .intro h1 {
+    font-size: 2.5rem;
+  }
+
 }
 
 
